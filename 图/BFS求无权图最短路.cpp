@@ -1,6 +1,7 @@
 ﻿#include<queue>
 std::vector<bool> vis(100); 
 std::vector<int> g[100];
+std::vector<int> dist;
 int main(){
     std::queue<int> q;
     q.push(1);
